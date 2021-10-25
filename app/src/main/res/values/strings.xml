@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">samvel_homework_lesson_6</string>
+    <string name="twister_description">Tender pieces of chicken fillet with crispy spicy or original bread crumbs, juicy lettuce, slices of tomato, tender sauce, wrapped in a wheat loshik and fried in toast</string>
+    <string name="type">տեսակ</string>
+    <string name="type_spicy">spicy</string>
+    <string name="type_original">original</string>
+    <string name="havelum">հավելում</string>
+    <string name="cheese_slice_1">պանրի 1 շերտ</string>
+    <string name="cheese_slice_2">պանրի 2 շերտ</string>
+    <string name="cheese_slice_3">պանրի 3 շերտ</string>
+    <string name="price_cheese_1">+ 150 AMD</string>
+    <string name="price_cheese_2">+ 300 AMD</string>
+    <string name="price_cheese_3">+ 450 AMD</string>
+    <string name="comment_order_placeholder">Your comments to the order</string>
+    <string name="add_to_cart">ADD TO CART</string>
 </resources>
