@@ -13,4 +13,16 @@
     <string name="price_cheese_3">+ 450 AMD</string>
     <string name="comment_order_placeholder">Your comments to the order</string>
     <string name="add_to_cart">ADD TO CART</string>
+    <string name="push_notifications">PUSH NOTIFICATIONS</string>
+    <string name="preferences">Preferences</string>
+    <string name="match_alerts">Match Alerts</string>
+    <string name="match_alerts_2">Get instant notifications for match events</string>
+    <string name="football">Football</string>
+    <string name="tennis">Tennis</string>
+    <string name="basketball">Basketball</string>
+    <string name="hockey">Hockey</string>
+    <string name="cricket">Cricket</string>
+    <string name="in_app_notifis">IN-APP NOTIFICATIONS</string>
+    <string name="fav_match">Favourite Match</string>
+    <string name="fav_league">Favourite League</string>
 </resources>

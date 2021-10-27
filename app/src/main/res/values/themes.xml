@@ -19,4 +19,7 @@
     <style name="my_radio_button" parent="Widget.AppCompat.CompoundButton.RadioButton">
         <item name="colorSecondary">@color/white</item>
     </style>
+    <style name="my_switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="colorSecondary">@color/white</item>
+    </style>
 </resources>
