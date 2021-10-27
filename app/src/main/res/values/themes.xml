@@ -13,4 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="my_check_box" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="colorSecondary">@color/white</item>
+    </style>
+    <style name="my_radio_button" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="colorSecondary">@color/white</item>
+    </style>
 </resources>
