@@ -171,6 +171,7 @@
         app:layout_constraintRight_toRightOf="@+id/push_nots"
         app:layout_constraintTop_toTopOf="@+id/match_alerts"
         app:layout_constraintBottom_toBottomOf="@+id/match_alerts_2"
+        style="@style/my_switch"
         android:checked="true"/>
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/fav_match_switch"
@@ -179,6 +180,7 @@
         app:layout_constraintRight_toRightOf="@+id/push_nots"
         app:layout_constraintTop_toTopOf="@+id/fav_match"
         app:layout_constraintBottom_toBottomOf="@+id/fav_match"
+        style="@style/my_switch"
         android:checked="true"/>
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/fav_league_switch"
@@ -187,6 +189,7 @@
         app:layout_constraintRight_toRightOf="@+id/push_nots"
         app:layout_constraintTop_toTopOf="@+id/fav_league"
         app:layout_constraintBottom_toBottomOf="@+id/fav_league"
+        style="@style/my_switch"
         android:checked="true"/>
 
 

@@ -25,4 +25,8 @@
     <string name="in_app_notifis">IN-APP NOTIFICATIONS</string>
     <string name="fav_match">Favourite Match</string>
     <string name="fav_league">Favourite League</string>
+    <string name="change_pass">Փոխել գաղտնաբառը</string>
+    <string name="pin_code">Սահմանել PIN կոդ մուտք գործելու համար</string>
+    <string name="close_blocking">Փակելիս բլոկավորել</string>
+    <string name="change_lang">Փոխել լեզուն</string>
 </resources>
