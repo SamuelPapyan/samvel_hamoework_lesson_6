@@ -22,6 +22,7 @@
         android:layout_marginTop="16dp">
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/change_pass"
+            android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="8dp"
@@ -46,6 +47,7 @@
             />
 
         <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/set_pin_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </androidx.cardview.widget.CardView>
@@ -65,6 +67,7 @@
             />
 
         <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/close_block_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </androidx.cardview.widget.CardView>

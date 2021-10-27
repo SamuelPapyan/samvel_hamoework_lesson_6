@@ -97,7 +97,8 @@
         app:layout_constraintTop_toBottomOf="@id/twister_type"
         app:layout_constraintLeft_toLeftOf="@id/twister_type"
         >
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/type_spicy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text = "@string/type_spicy"
@@ -106,7 +107,8 @@
             android:fontFamilt="@font/roboto_regular"
             android:style="@style/my_radio_button"
             />
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/type_original"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text = "@string/type_original"
