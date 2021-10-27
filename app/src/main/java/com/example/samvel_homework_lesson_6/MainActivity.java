@@ -8,6 +8,7 @@ import androidx.appcompat.widget.AppCompatTextView;
 
 import android.os.Bundle;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private AppCompatCheckBox cheese1;
     private AppCompatCheckBox cheese2;
     private AppCompatCheckBox cheese3;
-    private AppCompatTextView comment_box;
     private AppCompatButton add_to_cart;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +27,47 @@ public class MainActivity extends AppCompatActivity {
         cheese1 = findViewById(R.id.cheese1);
         cheese2 = findViewById(R.id.cheese2);
         cheese3 = findViewById(R.id.cheese3);
-        comment_box = findViewById(R.id.comment_box);
         add_to_cart = findViewById(R.id.add_to_cart);
+
+        if(spicy != null){
+            spicy.setOnClickListener(v->{
+                Toast.makeText(MainActivity.this, "Spicy Twister",Toast.LENGTH_LONG);
+            });
+        }
+        if(original != null){
+            original.setOnClickListener(v->{
+                Toast.makeText(MainActivity.this, "Original Twister",Toast.LENGTH_LONG);
+            });
+        }
+        if(cheese1 != null){
+            cheese1.setOnCheckedChangeListener((buttonView,isChecked)->{
+                if(isChecked)
+                    Toast.makeText(MainActivity.this, "+1 Cheese", Toast.LENGTH_LONG);
+                else
+                    Toast.makeText(MainActivity.this, "-1 Cheese", Toast.LENGTH_LONG);
+            });
+        }
+        if(cheese2 != null){
+            cheese2.setOnCheckedChangeListener((buttonView,isChecked)->{
+                if(isChecked)
+                    Toast.makeText(MainActivity.this, "+2 Cheese", Toast.LENGTH_LONG);
+                else
+                    Toast.makeText(MainActivity.this, "-2 Cheese", Toast.LENGTH_LONG);
+            });
+        }
+        if(cheese3 != null){
+            cheese3.setOnCheckedChangeListener((buttonView,isChecked)->{
+                if(isChecked)
+                    Toast.makeText(MainActivity.this, "+3 Cheese", Toast.LENGTH_LONG);
+                else
+                    Toast.makeText(MainActivity.this, "-3 Cheese", Toast.LENGTH_LONG);
+            });
+        }
+        if(add_to_cart != null){
+            add_to_cart.setOnClickListener(v->{
+                Toast.makeText(MainActivity.this,"Twister is ordered.",Toast.LENGTH_LONG);
+            });
+        }
     }
 
 }
